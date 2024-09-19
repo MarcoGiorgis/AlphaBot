@@ -1,0 +1,14 @@
+il client gira sul computer
+il server sul robot
+messaggi fatti da richieste e risposte
+richieste (client -> server)
+risposte (server -> client)
+
+richieste = f"{comando} | {value}"
+risposte = f"{status} | {phrase}" 
+
+COMANDI
+forward, backward, left, right
+
+STATUS 
+ok, error
