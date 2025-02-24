@@ -1,0 +1,74 @@
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    margin-left: 38%;
+    margin-top: 13%;
+}
+
+button {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.stop {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#ff0000
+
+}
+
+.stop:hover {
+    background-color: #b30000;
+}
+
+.avanti {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indietro {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sinistra {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.destra {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.logout{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 50px;
+}

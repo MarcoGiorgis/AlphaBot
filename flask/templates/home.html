@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comandi alphabot</title>
+    <style>
+        .container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 5%;
+    margin-left: 38%;
+    margin-top: 13%;
+}
+
+button {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.Stop {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#ff0000
+
+}
+
+.Stop:hover {
+    background-color: #b30000;
+}
+
+.Avanti {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Indietro {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Sinistra {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.Destra {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.Log-out{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.Log-out:hover {
+    background-color: #b30000;
+}
+
+    </style>
+</head>
+<body>
+    <form class="container" action="/" method="POST">
+        <button class="Log-out" name="log-out" value="logout">logout</button>
+        <button class="Stop" name="stop" value="stop">Stop</button>
+        <button class="Avanti" name="w" value="w">Avanti</button>
+        <button class="Indietro" name="s" value="s">Indietro</button>
+        <button class="Sinistra" name="a" value="a">Sinistra</button>
+        <button class="Destra" name="d" value="d">Destra</button>
+    </div>
+</body>
+</html>
